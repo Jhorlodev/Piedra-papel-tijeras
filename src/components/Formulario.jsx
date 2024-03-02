@@ -55,8 +55,12 @@ export default function App() {
         <div  className="mb-4">
             <div  className="grid grid-flow-row sm:grid-flow-col gap-4  ">
                 <div className='sm:col-span-4 justify-center flex flex-col gap-2'>
-      
- <h1 className="font-bold text-4xl text-white mb-8 underline underline-offset-8 flex justify-center items-center"><strong> Caja Fuerte </strong></h1>   
+ <h1 className="font-bold text-4xl text-white mb-8 underline underline-offset-8 flex justify-center items-center"><strong> Caja Fuerte </strong></h1> 
+
+      <a 
+        href="DataResults"
+        className=" flex justify-end text-white text-2xl font-bold pt-8 pr-10 pb-6"
+         >Busqueda De Datos</a>
     <label className="text-white flex gap-0 text-2xl font-semibold"> Descripcion:</label>
       <input 
 className="border-2 border-violet-500 rounded-lg text-center py-3 px-14 text-bolt bg-[#3b426a] text-gray-200"        type="text" 
